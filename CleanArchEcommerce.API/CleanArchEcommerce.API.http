@@ -1,0 +1,6 @@
+@CleanArchEcommerce.API_HostAddress = http://localhost:5251
+
+GET {{CleanArchEcommerce.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

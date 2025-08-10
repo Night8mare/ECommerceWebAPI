@@ -1,0 +1,306 @@
+[07:46:57 WRN] Failed to determine the https port for redirect.
+[07:46:58 INF] Started Excuting Login controller...
+[07:46:58 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[07:52:31 WRN] Unable to configure Browser Link script injection on the response. 
+[07:52:31 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[07:54:46 WRN] Failed to determine the https port for redirect.
+[07:54:47 INF] Started Excuting Login controller...
+[07:54:47 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[07:55:32 INF] Started Excuting Login controller...
+[07:57:52 WRN] Failed to determine the https port for redirect.
+[07:57:52 INF] Started Excuting Login controller...
+[07:57:52 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[07:57:52 ERR] Email
+[07:57:52 ERR] Password
+[08:02:13 WRN] Unable to configure Browser Link script injection on the response. 
+[08:02:13 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[10:22:08 WRN] Failed to determine the https port for redirect.
+[10:25:34 INF] Started Excuting Login controller...
+[10:25:34 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[10:25:34 ERR] [Email] User didn`t enter an email.
+[10:25:34 ERR] [Password] User didn`t enter a password.
+[10:25:52 INF] Executing get all products Controller..
+[10:25:52 ERR] Validation Error..
+[10:26:01 INF] Executing get all products Controller..
+[10:26:01 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[10:26:01 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[10:26:01 INF] 10 products
+[10:26:01 INF] returning product list..
+[10:26:12 INF] Executing get all products Controller..
+[10:26:12 INF] 10 products
+[10:26:12 INF] returning product list..
+[10:26:18 INF] Executing get all products Controller..
+[10:26:18 INF] 10 products
+[10:26:18 INF] returning product list..
+[10:26:26 INF] Executing get all products Controller..
+[10:26:26 INF] 2 products
+[10:26:26 INF] returning product list..
+[10:26:34 INF] Executing get all products Controller..
+[10:26:34 INF] 0 products
+[10:26:34 ERR] product list came with no items..
+[14:38:59 WRN] Unable to configure Browser Link script injection on the response. 
+[14:38:59 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[14:40:13 WRN] Failed to determine the https port for redirect.
+[14:44:40 WRN] Failed to determine the https port for redirect.
+[14:44:40 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[14:44:40 INF] Executing validation for input.
+[14:44:40 ERR] Validation error in cart ID field..
+[14:44:40 ERR] Validation error in product ID field..
+[14:44:40 ERR] Validation error in quantity field..
+[14:44:41 INF] Executing Mapping for item entity
+[15:03:45 WRN] Failed to determine the https port for redirect.
+[15:03:45 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[15:03:45 INF] Executing validation for input.
+[15:03:45 ERR] Validation error in cart ID field..
+[15:03:45 ERR] Validation error in product ID field..
+[15:03:45 ERR] Validation error in quantity field..
+[15:03:45 INF] Executing Mapping for item entity
+[15:04:26 WRN] Unable to configure Browser Link script injection on the response. 
+[15:04:26 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[15:04:36 WRN] Failed to determine the https port for redirect.
+[15:04:37 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[15:04:37 INF] Executing validation for input.
+[15:04:37 ERR] Validation error in cart ID field..
+[15:04:37 ERR] Validation error in product ID field..
+[15:04:37 ERR] Validation error in quantity field..
+[15:04:37 INF] Executing Mapping for item entity
+[15:04:43 INF] Executing validation for input.
+[15:04:43 ERR] Validation error in cart ID field..
+[15:04:43 ERR] Validation error in product ID field..
+[15:04:43 ERR] Validation error in quantity field..
+[15:04:43 ERR] An exception occurred in the database while saving changes for context type 'CleanArchEcommerce.Infrastructure.Context.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Item_CartId". The conflict occurred in database "ECommerce", table "dbo.Cart", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:4673d7b3-b7da-44b9-ae61-b9276592d28a
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Item_CartId". The conflict occurred in database "ECommerce", table "dbo.Cart", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:4673d7b3-b7da-44b9-ae61-b9276592d28a
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[15:05:43 WRN] Unable to configure Browser Link script injection on the response. 
+[15:05:43 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[15:06:21 WRN] Failed to determine the https port for redirect.
+[15:06:21 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[15:06:21 INF] Executing validation for input.
+[15:06:21 ERR] Validation error in cart ID field..
+[15:06:21 ERR] Validation error in product ID field..
+[15:06:21 ERR] Validation error in quantity field..
+[15:06:21 INF] Executing Mapping for item entity
+[15:27:03 WRN] Unable to configure Browser Link script injection on the response. 
+[15:27:03 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[15:27:11 WRN] Failed to determine the https port for redirect.
+[15:27:11 INF] 
+[15:27:11 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[15:27:11 INF] Executing validation for input.
+[15:27:11 ERR] Validation error in cart ID field..
+[15:27:11 ERR] Validation error in product ID field..
+[15:27:11 ERR] Validation error in quantity field..
+[15:27:11 INF] Executing Mapping for item entity
+[15:27:12 ERR] Validation Error..
+[16:32:42 WRN] Unable to configure Browser Link script injection on the response. 
+[16:32:42 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[16:35:36 WRN] Failed to determine the https port for redirect.
+[16:35:36 INF] Executing update item controller..
+[16:35:36 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[16:35:36 INF] Executing validation for input.
+[16:35:36 ERR] Validation error in cart ID field..
+[16:35:36 ERR] Validation error in product ID field..
+[16:35:36 ERR] Validation error in quantity field..
+[16:35:36 ERR] Validation error in item status..
+[16:35:36 INF] Executing updating item command..
+[16:35:37 INF] Executing updating item function..
+[16:35:37 INF] Item updated successfully..
+[16:35:37 INF] Item updated successfully..
+[16:35:50 INF] Executing update item controller..
+[16:35:50 INF] Executing validation for input.
+[16:35:50 ERR] Validation error in cart ID field..
+[16:35:50 ERR] Validation error in product ID field..
+[16:35:50 ERR] Validation error in quantity field..
+[16:35:50 ERR] Validation error in item status..
+[16:35:50 ERR] Validation Error..
+[16:35:58 INF] Executing update item controller..
+[16:35:58 INF] Executing validation for input.
+[16:35:58 ERR] Validation error in cart ID field..
+[16:35:58 ERR] Validation error in product ID field..
+[16:35:58 ERR] Validation error in quantity field..
+[16:35:58 ERR] Validation error in item status..
+[16:35:58 INF] Executing updating item command..
+[16:35:58 INF] Executing updating item function..
+[16:35:58 INF] Item updated successfully..
+[16:35:58 INF] Item updated successfully..
+[16:36:02 INF] Executing update item controller..
+[16:36:02 INF] Executing validation for input.
+[16:36:02 ERR] Validation error in cart ID field..
+[16:36:02 ERR] Validation error in product ID field..
+[16:36:02 ERR] Validation error in quantity field..
+[16:36:02 ERR] Validation error in item status..
+[16:36:02 INF] Executing updating item command..
+[16:36:02 ERR] Item update was found in the user cart..
+[16:36:02 ERR] Item wasn`t updated..
+[16:36:09 INF] Executing update item controller..
+[16:36:09 INF] Executing validation for input.
+[16:36:09 ERR] Validation error in cart ID field..
+[16:36:09 ERR] Validation error in product ID field..
+[16:36:09 ERR] Validation error in quantity field..
+[16:36:09 ERR] Validation error in item status..
+[16:36:09 INF] Executing updating item command..
+[16:36:09 ERR] Item update was found in the user cart..
+[16:36:09 ERR] Item wasn`t updated..
+[17:06:42 WRN] Unable to configure Browser Link script injection on the response. 
+[17:06:42 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[17:07:02 WRN] Failed to determine the https port for redirect.
+[17:07:02 INF] Executing delete item controller..
+[17:07:02 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[17:07:02 ERR] Validation error in Item ID field..
+[17:07:02 INF] Executing delete item function..
+[17:07:03 INF] Item deleted successfully..
+[17:07:03 INF] Item deleted successfully..
+[17:09:01 INF] Executing update item controller..
+[17:09:01 INF] Executing validation for input.
+[17:09:01 ERR] Validation error in cart ID field..
+[17:09:01 ERR] Validation error in product ID field..
+[17:09:01 ERR] Validation error in quantity field..
+[17:09:01 ERR] Validation error in item status..
+[17:09:01 INF] Executing updating item command..
+[17:09:01 ERR] Item wasn`t found in the user cart..
+[17:09:01 ERR] Item wasn`t updated..
+[17:11:16 INF] Started Excuting Login controller...
+[17:11:16 ERR] [Email] User didn`t enter an email.
+[17:11:16 ERR] [Password] User didn`t enter a password.
+[17:11:27 INF] Started Excuting Login controller...
+[17:11:27 ERR] [Email] User didn`t enter an email.
+[17:11:27 ERR] [Password] User didn`t enter a password.
+[17:12:08 INF] Executing create item controller..
+[17:12:08 INF] Executing validation for input.
+[17:12:08 ERR] Validation error in cart ID field..
+[17:12:08 ERR] Validation error in product ID field..
+[17:12:08 ERR] Validation error in quantity field..
+[17:12:08 INF] Starting handling item creation command..
+[17:12:08 INF] Executing creating item method..
+[17:12:08 INF] Returning item view dto to the front-end..
+[17:12:08 INF] Item created successfully..
+[17:12:40 INF] Executing create item controller..
+[17:12:40 INF] Executing validation for input.
+[17:12:40 ERR] Validation error in cart ID field..
+[17:12:40 ERR] Validation error in product ID field..
+[17:12:40 ERR] Validation error in quantity field..
+[17:12:40 INF] Starting handling item creation command..
+[17:12:40 INF] Executing creating item method..
+[17:12:40 INF] Returning item view dto to the front-end..
+[17:12:40 INF] Item created successfully..
+[17:12:44 INF] Executing create item controller..
+[17:12:44 INF] Executing validation for input.
+[17:12:44 ERR] Validation error in cart ID field..
+[17:12:44 ERR] Validation error in product ID field..
+[17:12:44 ERR] Validation error in quantity field..
+[17:12:44 INF] Starting handling item creation command..
+[17:12:44 INF] Executing creating item method..
+[17:12:44 INF] Returning item view dto to the front-end..
+[17:12:44 INF] Item created successfully..
+[17:12:46 INF] Executing create item controller..
+[17:12:46 INF] Executing validation for input.
+[17:12:46 ERR] Validation error in cart ID field..
+[17:12:46 ERR] Validation error in product ID field..
+[17:12:46 ERR] Validation error in quantity field..
+[17:12:46 INF] Starting handling item creation command..
+[17:12:46 INF] Executing creating item method..
+[17:12:46 INF] Returning item view dto to the front-end..
+[17:12:46 INF] Item created successfully..
+[17:38:21 WRN] Unable to configure Browser Link script injection on the response. 
+[17:38:21 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[17:39:05 WRN] Failed to determine the https port for redirect.
+[17:39:05 INF] Executing get all item controller..
+[17:39:05 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[17:39:05 INF] Validating page number field..
+[17:39:05 INF] Validating page size field..
+[17:39:06 INF] Executing get all item query handler..
+[17:39:06 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[17:39:06 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[17:39:07 INF] Returning list of items..
+[17:39:07 INF] Returning item list
+[17:39:28 INF] Executing get all item controller..
+[17:39:28 INF] Validating page number field..
+[17:39:28 INF] Validating page size field..
+[17:39:28 INF] Executing get all item query handler..
+[17:39:28 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[17:39:28 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[17:39:28 INF] Returning list of items..
+[17:39:28 INF] Returning item list
+[17:39:32 INF] Executing get all item controller..
+[17:39:32 INF] Validating page number field..
+[17:39:32 INF] Validating page size field..
+[17:39:32 INF] Executing get all item query handler..
+[17:39:32 INF] Returning list of items..
+[17:39:32 INF] Returning item list
+[17:39:59 INF] Executing get all item controller..
+[17:39:59 INF] Validating page number field..
+[17:39:59 INF] Validating page size field..
+[17:39:59 INF] Executing get all item query handler..
+[17:39:59 INF] Returning list of items..
+[17:39:59 INF] Returning item list
+[17:40:05 WRN] Unable to configure Browser Link script injection on the response. 
+[17:40:05 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[17:40:13 WRN] Failed to determine the https port for redirect.
+[17:40:13 INF] Executing get all item controller..
+[17:40:13 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[17:40:13 INF] Validating page number field..
+[17:40:13 INF] Validating page size field..
+[17:40:13 INF] Executing get all item query handler..
+[17:40:14 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[17:40:14 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[17:40:14 INF] Returning list of items..
+[17:40:14 INF] Returning item list
+[17:40:16 INF] Executing get all item controller..
+[17:40:16 INF] Validating page number field..
+[17:40:16 INF] Validating page size field..
+[17:40:16 INF] Executing get all item query handler..
+[17:40:16 INF] Returning list of items..
+[17:40:16 ERR] No item found in the database..

@@ -1,0 +1,20 @@
+[10:29:54 WRN] Unable to configure Browser Link script injection on the response. 
+[10:29:54 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[10:30:05 WRN] Failed to determine the https port for redirect.
+[10:32:06 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[10:32:06 INF] Started Excuting Login controller...
+[10:32:06 INF] Validating Email field.
+[10:32:06 INF] Validating Password field.
+[10:32:07 INF] Executing login user handler..
+[10:32:07 INF] Getting user by email : 1096ad821sf19a@gmail.com
+[10:32:08 INF] Updating token for user: 1096ad821sf19a@gmail.com
+[10:32:08 INF] Getting Cart by ID: 3024
+[10:32:19 INF] Executing get all item controller..
+[10:32:19 INF] Validating page number field..
+[10:32:19 INF] Validating page size field..
+[10:32:19 INF] Executing get all item query handler..
+[10:32:19 INF] Getting all item list from DataBase
+[10:32:19 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[10:32:19 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[10:32:19 INF] Returning list of items..
+[10:32:19 INF] Returning item list

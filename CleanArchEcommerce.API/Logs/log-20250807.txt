@@ -1,0 +1,194 @@
+[07:42:37 WRN] Unable to configure Browser Link script injection on the response. 
+[07:42:37 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[07:43:37 WRN] Failed to determine the https port for redirect.
+[07:44:35 INF] Started Excuting Login controller...
+[07:44:35 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[07:44:36 ERR] [Email] User didn`t enter an email.
+[07:44:36 ERR] [Password] User didn`t enter a password.
+[07:44:59 INF] Executing create item controller..
+[07:44:59 INF] Executing validation for input.
+[07:44:59 ERR] Validation error in cart ID field..
+[07:44:59 ERR] Validation error in product ID field..
+[07:44:59 ERR] Validation error in quantity field..
+[07:44:59 INF] Starting handling item creation command..
+[07:44:59 ERR] Product provided isn`t found in the database..
+[07:44:59 INF] Item created successfully..
+[07:45:20 INF] Executing create item controller..
+[07:45:20 INF] Executing validation for input.
+[07:45:20 ERR] Validation error in cart ID field..
+[07:45:20 ERR] Validation error in product ID field..
+[07:45:20 ERR] Validation error in quantity field..
+[07:45:20 INF] Starting handling item creation command..
+[07:45:21 ERR] Product provided isn`t found in the database..
+[07:45:21 INF] Item created successfully..
+[07:46:31 INF] Executing create item controller..
+[07:46:31 INF] Executing validation for input.
+[07:46:31 ERR] Validation error in cart ID field..
+[07:46:31 ERR] Validation error in product ID field..
+[07:46:31 ERR] Validation error in quantity field..
+[07:46:31 INF] Starting handling item creation command..
+[07:46:31 ERR] Product provided isn`t found in the database..
+[07:46:31 INF] Item created successfully..
+[07:46:47 INF] Executing create item controller..
+[07:46:51 INF] Executing validation for input.
+[07:46:52 ERR] Validation error in cart ID field..
+[07:46:53 ERR] Validation error in product ID field..
+[07:46:54 ERR] Validation error in quantity field..
+[07:47:03 INF] Starting handling item creation command..
+[07:47:03 ERR] Product provided isn`t found in the database..
+[07:47:06 INF] Item created successfully..
+[07:47:10 INF] Executing create item controller..
+[07:47:15 INF] Executing validation for input.
+[07:47:16 ERR] Validation error in cart ID field..
+[07:47:18 ERR] Validation error in product ID field..
+[07:47:20 ERR] Validation error in quantity field..
+[07:48:47 WRN] Failed to determine the https port for redirect.
+[07:48:47 INF] Executing create item controller..
+[07:48:48 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[07:48:53 INF] Executing validation for input.
+[07:48:53 ERR] Validation error in cart ID field..
+[07:48:53 ERR] Validation error in product ID field..
+[07:48:53 ERR] Validation error in quantity field..
+[07:48:53 INF] Starting handling item creation command..
+[07:48:54 ERR] Product provided isn`t found in the database..
+[07:48:54 ERR] Item wasn`t created..
+[08:05:10 WRN] Failed to determine the https port for redirect.
+[08:05:10 INF] Executing create item controller..
+[08:05:10 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[08:05:10 INF] Executing validation for input.
+[08:05:10 ERR] Validation error in cart ID field..
+[08:05:10 ERR] Validation error in product ID field..
+[08:05:10 ERR] Validation error in quantity field..
+[08:05:10 INF] Starting handling item creation command..
+[08:05:10 INF] Checking matching Cart ID with the user input
+[08:05:11 ERR] Cart ID didn`t match the user inputting the data
+[08:05:11 ERR] Item wasn`t created..
+[08:05:25 INF] Executing create item controller..
+[08:05:25 INF] Executing validation for input.
+[08:05:25 ERR] Validation error in cart ID field..
+[08:05:25 ERR] Validation error in product ID field..
+[08:05:25 ERR] Validation error in quantity field..
+[08:05:25 INF] Starting handling item creation command..
+[08:05:25 INF] Checking matching Cart ID with the user input
+[08:05:25 ERR] Product provided isn`t found in the database..
+[08:05:25 ERR] Item wasn`t created..
+[08:24:44 WRN] Unable to configure Browser Link script injection on the response. 
+[08:24:44 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[08:25:12 WRN] Failed to determine the https port for redirect.
+[08:25:12 INF] Started Excuting Login controller...
+[08:25:12 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[08:25:12 ERR] [Email] User didn`t enter an email.
+[08:25:12 ERR] [Password] User didn`t enter a password.
+[08:25:35 INF] Started Excuting Login controller...
+[08:25:35 ERR] [Email] User didn`t enter an email.
+[08:25:35 ERR] [Password] User didn`t enter a password.
+[08:26:04 INF] Started Excuting Login controller...
+[08:26:04 ERR] [Email] User didn`t enter an email.
+[08:26:04 ERR] [Password] User didn`t enter a password.
+[10:19:52 WRN] Failed to determine the https port for redirect.
+[10:20:10 INF] Executing delete item controller..
+[10:20:10 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[10:20:10 ERR] Validation error in Item ID field..
+[10:20:10 INF] Executing delete item function..
+[10:20:12 INF] Item deleted successfully..
+[10:20:12 INF] Item deleted successfully..
+[10:21:06 INF] Executing delete item controller..
+[10:21:06 ERR] Validation error in Item ID field..
+[10:21:06 INF] Executing delete item function..
+[10:21:06 ERR] Item not found..
+[10:21:06 ERR] Item wasn`t deleted..
+[10:21:08 INF] Executing delete item controller..
+[10:21:08 ERR] Validation error in Item ID field..
+[10:21:08 INF] Executing delete item function..
+[10:21:08 ERR] Item not found..
+[10:21:08 ERR] Item wasn`t deleted..
+[10:21:08 INF] Executing delete item controller..
+[10:21:08 ERR] Validation error in Item ID field..
+[10:21:08 INF] Executing delete item function..
+[10:21:08 ERR] Item not found..
+[10:21:08 ERR] Item wasn`t deleted..
+[10:30:47 WRN] Failed to determine the https port for redirect.
+[10:31:00 INF] Executing delete item controller..
+[10:31:01 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[10:31:01 ERR] Validation error in Item ID field..
+[10:31:01 INF] Executing delete item function..
+[10:31:01 INF] Item deleted successfully..
+[10:31:01 INF] Item deleted successfully..
+[10:41:03 WRN] Unable to configure Browser Link script injection on the response. 
+[10:41:03 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[10:41:32 WRN] Failed to determine the https port for redirect.
+[10:41:34 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[10:41:40 INF] Validating page number field.
+[10:41:48 INF] Executing Get user query handler.
+[10:41:48 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[10:41:48 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[10:43:02 WRN] Failed to determine the https port for redirect.
+[10:43:02 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[10:43:06 INF] Validating page number field.
+[10:43:06 INF] Executing Get user query handler.
+[10:43:07 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[10:43:07 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[10:44:28 WRN] Failed to determine the https port for redirect.
+[10:44:28 INF] Executing delete item controller..
+[10:44:29 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[10:44:34 INF] Validation in Item ID field..
+[10:44:34 INF] Validation in Cart ID field..
+[10:44:59 INF] Executing delete item handler for item ID: 3017 / User: 4020..
+[10:45:05 INF] Matching user ID:4020 with cart ID: 5012
+[10:45:39 INF] Matching user ID:4020 with Cart ID:5012
+[10:45:43 ERR] User ID :4020 tried to delete another cart item ID 3017 with cart ID 5012..
+[10:45:52 ERR] Item ID: 3017 wasn`t deleted..
+[14:41:29 WRN] Failed to determine the https port for redirect.
+[14:41:30 INF] Executing create product Handler..
+[14:41:30 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[14:41:30 INF] Validating Name field..
+[14:41:30 INF] Validating Description field..
+[14:41:30 INF] Validating Purchase Price field..
+[14:41:30 INF] Validating Stock Quantity field..
+[14:41:30 INF] Validating Is Available field..
+[14:41:40 INF] Executing create product Handler..
+[14:41:40 INF] Validating Name field..
+[14:41:40 INF] Validating Description field..
+[14:41:40 INF] Validating Purchase Price field..
+[14:41:40 INF] Validating Stock Quantity field..
+[14:41:40 INF] Validating Is Available field..
+[14:41:41 INF] User: 01as9d8f198@gmail.com Executed create product handler
+[14:41:41 INF] Executing create product function
+[14:41:41 INF] Creating product :string
+[14:41:42 INF] Product created successfully
+[14:41:42 INF] Returning product created..
+[14:41:42 INF] Returning product created..
+[17:34:21 WRN] Unable to configure Browser Link script injection on the response. 
+[17:34:21 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[17:34:28 WRN] Failed to determine the https port for redirect.
+[17:35:13 INF] Started Excuting Login controller...
+[17:35:13 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[17:35:13 ERR] [Email] User didn`t enter an email.
+[17:35:13 ERR] [Password] User didn`t enter a password.
+[17:35:13 INF] Getting user by email : 01as9d8f198@gmail.com
+[17:35:22 INF] Started Excuting Login controller...
+[17:35:22 ERR] [Email] User didn`t enter an email.
+[17:35:22 ERR] [Password] User didn`t enter a password.
+[17:35:22 INF] Getting user by email : 01as9d8f198@gmail.com
+[17:35:22 INF] Updating token for user: 01as9d8f198@gmail.com
+[17:35:22 INF] Getting Cart by ID: 4020
+[17:35:42 INF] Executing get all products Controller..
+[17:35:42 INF] Validating PageNumger field..
+[17:35:42 INF] User: 01as9d8f198@gmail.com executing get product query handler.
+[17:35:42 INF] Getting all product List
+[17:35:42 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[17:35:42 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[17:35:42 INF] 10 products returned
+[17:35:42 INF] returning product list..
+[17:36:53 WRN] Unable to configure Browser Link script injection on the response. 
+[17:36:53 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[17:37:04 WRN] Failed to determine the https port for redirect.
+[17:37:04 INF] Executing get all products Controller..
+[17:37:04 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[17:37:04 INF] Validating PageNumger field..
+[17:37:05 INF] User: 01as9d8f198@gmail.com executing get product query handler.
+[17:37:05 INF] Getting all product List
+[17:37:05 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[17:37:05 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[17:37:06 INF] 10 products returned
+[17:37:06 INF] returning product list..

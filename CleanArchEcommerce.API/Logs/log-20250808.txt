@@ -1,0 +1,17 @@
+[16:28:44 WRN] Unable to configure Browser Link script injection on the response. 
+[16:28:44 WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[16:29:48 WRN] Failed to determine the https port for redirect.
+[16:29:49 INF] Started Excuting Login controller...
+[16:29:49 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[16:29:50 INF] Validating Email field.
+[16:29:50 INF] Validating Password field.
+[16:29:50 INF] Executing login user handler..
+[16:29:50 INF] Getting user by email : 1f09ads812f109a82@gmail.com
+[16:29:52 INF] Updating token for user: 1f09ads812f109a82@gmail.com
+[16:29:52 INF] Getting Cart by ID: 5029
+[16:30:05 INF] Executing get order history controller..
+[16:30:05 INF] User: 1f09ads812f109a82@gmail.com executed get order history handler..
+[16:30:05 INF] Executing getting order history from the database..
+[16:30:19 INF] Executing get order item history controller..
+[16:30:19 INF] User: 1f09ads812f109a82@gmail.com executed get item history handler..
+[16:30:19 INF] Executing get item history..

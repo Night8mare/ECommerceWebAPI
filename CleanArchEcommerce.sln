@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchEcommerce.API", "CleanArchEcommerce.API\CleanArchEcommerce.API.csproj", "{B02EC9C7-E439-46CF-AB06-D68EBF181925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchEcommerce.Domain", "CleanArchEcommerce.Domain\CleanArchEcommerce.Domain.csproj", "{0EF1BDBA-631E-420D-9B32-4B7242623227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchEcommerce.Infrastructure", "CleanArchEcommerce.Infrastructure\CleanArchEcommerce.Infrastructure.csproj", "{B45101F1-6118-4935-BB7F-C6600646F1C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchEcommerce.Application", "CleanArchEcommerce.Application\CleanArchEcommerce.Application.csproj", "{B22C5B7D-0F34-45CD-A27B-FD5CB3F0577E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B02EC9C7-E439-46CF-AB06-D68EBF181925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02EC9C7-E439-46CF-AB06-D68EBF181925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02EC9C7-E439-46CF-AB06-D68EBF181925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02EC9C7-E439-46CF-AB06-D68EBF181925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EF1BDBA-631E-420D-9B32-4B7242623227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF1BDBA-631E-420D-9B32-4B7242623227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF1BDBA-631E-420D-9B32-4B7242623227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF1BDBA-631E-420D-9B32-4B7242623227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B45101F1-6118-4935-BB7F-C6600646F1C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45101F1-6118-4935-BB7F-C6600646F1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45101F1-6118-4935-BB7F-C6600646F1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45101F1-6118-4935-BB7F-C6600646F1C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B22C5B7D-0F34-45CD-A27B-FD5CB3F0577E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B22C5B7D-0F34-45CD-A27B-FD5CB3F0577E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B22C5B7D-0F34-45CD-A27B-FD5CB3F0577E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B22C5B7D-0F34-45CD-A27B-FD5CB3F0577E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A50529BE-7F91-41E4-935A-5D55846891B7}
+	EndGlobalSection
+EndGlobal
