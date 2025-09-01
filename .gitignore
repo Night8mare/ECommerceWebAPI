@@ -1,7 +1,7 @@
 # Ignore build outputs
 bin/
 obj/
-
+Logs/
 # Ignore user-specific files
 *.user
 *.suo
@@ -29,3 +29,9 @@ Thumbs.db
 # Ignore secrets
 appsettings.Development.json
 appsettings.json
+/CleanArchEcommerce.API/Logs/log-20250805.txt
+/CleanArchEcommerce.API/Logs/log-20250806.txt
+/CleanArchEcommerce.API/Logs/log-20250807.txt
+/CleanArchEcommerce.API/Logs/log-20250808.txt
+/CleanArchEcommerce.API/Logs/log-20250809.txt
+/CleanArchEcommerce.API/Logs/log-20250810.txt

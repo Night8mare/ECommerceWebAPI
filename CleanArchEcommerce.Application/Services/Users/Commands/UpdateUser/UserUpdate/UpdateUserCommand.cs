@@ -3,10 +3,11 @@ using CleanArchEcommerce.Application.Common.Exceptions;
 using CleanArchEcommerce.Application.Common.Mappings;
 using CleanArchEcommerce.Domain.Entities;
 using MediatR;
+using Microsoft.AspNetCore.Http;
 
 namespace CleanArchEcommerce.Application.Services.Users.Commands.UpdateUser.UserUpdate
 {
-    public class UpdateUserCommand : IRequest<Result<int>>, IMapFrom<User>
+    public class UpdateUserCommand : IRequest<Result<List<string>>>, IMapFrom<User>
     {
         public string FirstName { get; set; } = null!;
         public string LastName { get; set; } = null!;

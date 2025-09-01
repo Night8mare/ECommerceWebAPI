@@ -1,4 +1,8 @@
-﻿using CleanArchEcommerce.Domain.Repository.Users;
+﻿using CleanArchEcommerce.Application.Common.Specifications.UserSpecifications;
+using CleanArchEcommerce.Application.Specifications.BaseSpecifications;
+using CleanArchEcommerce.Domain.Entities;
+using CleanArchEcommerce.Domain.Repository.Users;
+using CleanArchEcommerce.Domain.RepositoryInterface.Generic;
 using FluentValidation;
 using Serilog;
 using System.Text.RegularExpressions;
@@ -7,8 +11,9 @@ namespace CleanArchEcommerce.Application.Services.Users.Commands.CreateUser.Admi
 {
     public class AdminCreateCommandValidator : AbstractValidator<AdminCreateCommand>
     {
-        public AdminCreateCommandValidator(IUserRepository _user) 
+        public AdminCreateCommandValidator(IGenericRepository<User> _user) 
         {
+
             RuleFor(u => u.FirstName)
                 .NotEmpty().WithMessage("First name is required");
             Log.Information("Validating First name field..");
@@ -19,8 +24,7 @@ namespace CleanArchEcommerce.Application.Services.Users.Commands.CreateUser.Admi
 
             RuleFor(u => u.Email)
                     .NotEmpty().WithMessage("Email is required")
-                    .EmailAddress().WithMessage("Must be an Email address only")
-                    .MustAsync(async (email, cancellation) => !await _user.EmailExistAsync(email)).WithMessage("Email already exists!");
+                    .EmailAddress().WithMessage("Must be an Email address only");
             Log.Information("Validating Email field..");
 
             RuleFor(u => u.Address)

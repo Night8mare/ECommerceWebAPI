@@ -2,9 +2,11 @@
 using CleanArchEcommerce.Application.Common.DTOs;
 using CleanArchEcommerce.Application.Common.Exceptions;
 using CleanArchEcommerce.Application.Common.Services.Tokens;
+using CleanArchEcommerce.Application.Common.Specifications.UserSpecifications;
 using CleanArchEcommerce.Domain.Entities;
 using CleanArchEcommerce.Domain.Repository.Users;
 using CleanArchEcommerce.Domain.RepositoryInterface.Carts;
+using CleanArchEcommerce.Domain.RepositoryInterface.Generic;
 using MediatR;
 using Serilog;
 
@@ -14,14 +16,16 @@ namespace CleanArchEcommerce.Application.Services.Users.Queries.LoginUser
     {
         #region Field
         private readonly IUserRepository _userRepository;
+        private readonly IGenericRepository<User> _userRepo;
         private readonly ICartRepository _cartRepository;
         private readonly IMapper _mapper;
         private readonly ITokenService _tokenService;
         #endregion
         #region Constructor
-        public LoginUserQueryHandler(IUserRepository userRepository, ICartRepository cartRepository, IMapper mapper, ITokenService tokenService)
+        public LoginUserQueryHandler(IUserRepository userRepository, IGenericRepository<User> userRepo, ICartRepository cartRepository, IMapper mapper, ITokenService tokenService)
         {
             _userRepository = userRepository;
+            _userRepo = userRepo;
             _cartRepository = cartRepository;
             _mapper = mapper;
             _tokenService = tokenService;
@@ -31,7 +35,8 @@ namespace CleanArchEcommerce.Application.Services.Users.Queries.LoginUser
         public async Task<Result<UserLoginDTO>> Handle(LoginUserQuery request, CancellationToken cancellationToken)
         {
             Log.Information("Executing login user handler..");
-            var login = await _userRepository.GetUserByEmailAsync(request.Email);
+            var spec = new UserGetByEmailSpecification(request.Email);
+            var login = await _userRepo.GetBySpecAsync(spec);
             
             if (login == null)
             {

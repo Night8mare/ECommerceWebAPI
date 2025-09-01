@@ -1,6 +1,9 @@
 ﻿using CleanArchEcommerce.Application.Common.Exceptions;
 using CleanArchEcommerce.Application.Common.Services.Tokens;
+using CleanArchEcommerce.Application.Common.Specifications.UserSpecifications;
+using CleanArchEcommerce.Domain.Entities;
 using CleanArchEcommerce.Domain.Repository.Users;
+using CleanArchEcommerce.Domain.RepositoryInterface.Generic;
 using MediatR;
 using Serilog;
 
@@ -10,12 +13,14 @@ namespace CleanArchEcommerce.Application.Services.Users.Commands.DeleteUser.User
     {
         #region Field
         private readonly IUserRepository _userRepository;
+        private readonly IGenericRepository<User> _userRepo;
         private readonly ITokenService _tokenService;
         #endregion
         #region Constructor
-        public DeleteUserCommandHandler(IUserRepository userRepository, ITokenService tokenService)
+        public DeleteUserCommandHandler(IUserRepository userRepository, IGenericRepository<User> userRepo, ITokenService tokenService)
         {
             _userRepository = userRepository;
+            _userRepo = userRepo;
             _tokenService = tokenService;
         }
         #endregion
@@ -23,13 +28,14 @@ namespace CleanArchEcommerce.Application.Services.Users.Commands.DeleteUser.User
         public async Task<Result<bool>> Handle(DeleteUserCommand request, CancellationToken cancellationToken)
         {
             Log.Information($"User: {_tokenService.Email} executed delete user handler..");
-            var user = await _userRepository.GetByIdAsync(_tokenService.UserId);
+            var spec = new UserGetByIdSpecification(_tokenService.UserId);
+            var user = await _userRepo.GetBySpecAsync(spec);
             if (user == null)
             {
                 Log.Error("User not found..");
                 return Result<bool>.Failure(false, "User not found..", ErrorType.NotFound);
             }
-            var userDelete = await _userRepository.DeleteUserAsync(user.Id);
+            var userDelete = await _userRepo.DeleteWithSpecAsync(spec);
             if (userDelete == 0)
             {
                 Log.Error("Something went wrong while deleting user..");

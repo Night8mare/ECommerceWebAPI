@@ -5,7 +5,7 @@ namespace CleanArchEcommerce.Application.Common.DTOs
 {
     public class ProductDTO : IMapFrom<Product>
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; } = null!;
 
         public string Description { get; set; } = null!;

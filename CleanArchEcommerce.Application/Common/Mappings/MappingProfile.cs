@@ -17,13 +17,13 @@ namespace CleanArchEcommerce.Application.Common.Mappings
             var types = assembly.GetExportedTypes().Where(t => t.GetInterfaces().Any(HasInterface)).ToList();
             var argumentTypes = new Type[] { typeof(Profile) };
 
-            foreach ( var type in types)
+            foreach (var type in types)
             {
                 var instance = Activator.CreateInstance(type);
 
                 var methodInfo = type.GetMethod(mappingMethodName);
 
-                if (methodInfo != null )
+                if (methodInfo != null)
                 {
                     methodInfo.Invoke(instance, new object[] { this });
                 }
@@ -39,7 +39,6 @@ namespace CleanArchEcommerce.Application.Common.Mappings
                         }
                     }
                 }
-
             }
         }
     }

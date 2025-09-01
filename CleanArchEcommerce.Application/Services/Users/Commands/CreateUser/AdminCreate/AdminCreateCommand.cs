@@ -9,6 +9,7 @@ namespace CleanArchEcommerce.Application.Services.Users.Commands.CreateUser.Admi
 {
     public class AdminCreateCommand : IRequest<Result<AdminDTO>> , IMapFrom<User>, IMapFrom<Cart>
     {
+        #region Properties
         public string FirstName { get; set; } = null!;
         public string LastName { get; set; } = null!;
         public string Email { get; set; } = null!;
@@ -20,6 +21,8 @@ namespace CleanArchEcommerce.Application.Services.Users.Commands.CreateUser.Admi
         public string PostalCard { get; set; } = null!;
         public string Password { get; set; } = null!;
         public string Role { get; set; } = null!;
+        #endregion
+        #region Mapping
         public void Mapping(Profile profile)
         {
             profile.CreateMap<AdminCreateCommand, User>()
@@ -42,5 +45,6 @@ namespace CleanArchEcommerce.Application.Services.Users.Commands.CreateUser.Admi
                     src.Id
                     ));
         }
+        #endregion
     }
 }

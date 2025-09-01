@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
 using CleanArchEcommerce.Application.Common.DTOs;
 using CleanArchEcommerce.Application.Common.Exceptions;
+using CleanArchEcommerce.Application.Common.Specifications.UserSpecifications;
 using CleanArchEcommerce.Domain.Entities;
 using CleanArchEcommerce.Domain.Repository.Users;
 using CleanArchEcommerce.Domain.RepositoryInterface.Carts;
+using CleanArchEcommerce.Domain.RepositoryInterface.Generic;
 using MediatR;
 using Serilog;
 
@@ -12,14 +14,14 @@ namespace CleanArchEcommerce.Application.Services.Users.Commands.CreateUser.Regi
     public class RegistryUserCommandHandler : IRequestHandler<RegistryUserCommand, Result<UserDTO>>
     {
         #region Field
-        private readonly IUserRepository _userRepository;
+        private readonly IGenericRepository<User> _userRepo;
         private readonly ICartRepository _cartRepository;
         private readonly IMapper _mapper;
         #endregion
         #region Constructor
-        public RegistryUserCommandHandler(IUserRepository userRepository, ICartRepository cartRepository, IMapper mapper)
+        public RegistryUserCommandHandler(IGenericRepository<User> userRepo, ICartRepository cartRepository, IMapper mapper)
         {
-            _userRepository = userRepository;
+            _userRepo = userRepo;
             _cartRepository = cartRepository;
             _mapper = mapper;
         }
@@ -29,7 +31,15 @@ namespace CleanArchEcommerce.Application.Services.Users.Commands.CreateUser.Regi
         {
             Log.Information("Executing registry user");
             var user = _mapper.Map<User>(request);
-            var userResult = await _userRepository.RegisterUserAsync(user);
+            var spec = new UserGetByEmailSpecification(user.Email);
+            var userExists = _userRepo.GetBySpecAsync(spec);
+            if (userExists != null)
+            {
+                Log.Error("User email input already exists in the database");
+                return Result<UserDTO>.Failure(null, "Email already Exists..", ErrorType.BadRequest);
+            }
+
+            var userResult = await _userRepo.AddAsync(user);
             if (userResult == null)
             {
                 Log.Error("Something went wrong while registry user..");

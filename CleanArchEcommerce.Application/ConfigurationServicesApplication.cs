@@ -1,4 +1,5 @@
 ﻿using CleanArchEcommerce.Application.Common.Behaviours;
+using CleanArchEcommerce.Application.Common.Mappings;
 using CleanArchEcommerce.Application.Common.Services.Tokens;
 using FluentValidation;
 using MediatR;
@@ -20,6 +21,7 @@ namespace CleanArchEcommerce.Application
             });
             services.AddHttpContextAccessor();
             services.AddScoped<ITokenService, TokenService>();
+            services.AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>));
             return services;
         }
     }

@@ -1,10 +1,12 @@
 ﻿using CleanArchEcommerce.Domain.Repository.Users;
 using CleanArchEcommerce.Domain.RepositoryInterface.Carts;
+using CleanArchEcommerce.Domain.RepositoryInterface.Generic;
 using CleanArchEcommerce.Domain.RepositoryInterface.Items;
 using CleanArchEcommerce.Domain.RepositoryInterface.Orders;
 using CleanArchEcommerce.Domain.RepositoryInterface.Products;
 using CleanArchEcommerce.Infrastructure.Context;
 using CleanArchEcommerce.Infrastructure.Repositories.Carts;
+using CleanArchEcommerce.Infrastructure.Repositories.Generic;
 using CleanArchEcommerce.Infrastructure.Repositories.Items;
 using CleanArchEcommerce.Infrastructure.Repositories.Orders;
 using CleanArchEcommerce.Infrastructure.Repositories.Products;
@@ -14,7 +16,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
-using System.ComponentModel.Design;
+using Serilog;
 using System.Text;
 
 namespace CleanArchEcommerce.Infrastructure
@@ -25,7 +27,7 @@ namespace CleanArchEcommerce.Infrastructure
         {
             services.AddDbContext<ApplicationDbContext>(
                     options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
-                    b => b.MigrationsAssembly(typeof(ServiceContainer).Assembly.FullName)),ServiceLifetime.Scoped);
+                    b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)), ServiceLifetime.Scoped);
             services.AddAuthentication(
                 options =>
                 {
@@ -45,6 +47,7 @@ namespace CleanArchEcommerce.Infrastructure
                         ClockSkew = TimeSpan.Zero
                     };
                 });
+            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<ICartRepository, CartRepository>();

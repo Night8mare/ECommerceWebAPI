@@ -6,8 +6,10 @@ using MediatR;
 
 namespace CleanArchEcommerce.Application.Services.Users.Commands.UpdateUser.AdminUpdate
 {
-    public class UpdateAdminCommand : IRequest<Result<int>>, IMapFrom<User>
+    public class UpdateAdminCommand : IRequest<Result<List<string>>>, IMapFrom<User>
     {
+        #region Properties
+        public int Id { get; set; }
         public string FirstName { get; set; } = null!;
         public string LastName { get; set; } = null!;
         public string Email { get; set; } = null!;
@@ -19,9 +21,12 @@ namespace CleanArchEcommerce.Application.Services.Users.Commands.UpdateUser.Admi
         public string PostalCard { get; set; } = null!;
         public string Password { get; set; } = null!;
         public string Role { get; set; } = null!;
+        #endregion
+        #region Mapping
         public void Mapping(Profile profile)
         {
             profile.CreateMap<UpdateAdminCommand, User>();
         }
+        #endregion
     }
 }

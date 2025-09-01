@@ -40,6 +40,10 @@ A modular, clean architecture-based ASP.NET Core Web API for e-commerce applicat
 - **AutoMapper**
 - **MediatR**
 - **FluentValidation**
+- **SQL Server**
+- **Repository Pattern**
+- **Generic Repository Pattern**
+- **Specification Pattern**
 
 ---
 
@@ -79,6 +83,55 @@ You must provide your own before running the application.
 3. **Add your `appsettings.json`:**
 - Copy the sample from documentation or create your own.
 - Set up your connection string and JWT settings.
+- /*
+- Example `appsettings.json` structure:
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=YourConnection;Database=ECommerce;Trusted_Connection=True;TrustServerCertificate=True;"
+  },
+  "AppSettings": {
+    "Token": "Your Token secret key",
+    "Issuer": "Your Local Host",
+    "Audience": "Your Local Host"
+  },
+  "Serilog": {
+    "Using": [ "Serilog.Sinks.Console", "Serilog.Sinks.File" ],
+    "MinimumLevel": {
+      "Default": "Information",
+      "Override": {
+        "Microsoft": "Warning",
+        "System": "Warning"
+      }
+    },
+    "WriteTo": [
+      {
+        "Name": "Console"
+      },
+      {
+        "Name": "File",
+        "Args": {
+          "path": "Logs/log-.txt",
+          "rollingInterval": "Day",
+          "outputTemplate": "[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj}{NewLine}{Exception}"
+        }
+      }
+    ],
+    "Enrich": [ "FromLogContext", "WithMachineName", "WithThreadId" ],
+    "Properties": {
+      "Application": "CleanArchEcommerce"
+    }
+  }//,
+  //"ImageStoragePath": "F:\\Coding\\PersonalProjects\\E-Commerce(Public)\\CleanArchEcommerce\\CleanArchEcommerce.API\\Images",
+  //"DefaultImagePath": "F:\\Coding\\PersonalProjects\\E-Commerce(Public)\\CleanArchEcommerce\\CleanArchEcommerce.API\\Images\\DefaultImage.png"
+}
+- */
 
 4. **Apply database migrations:**
 - dotnet ef database update --project CleanArchEcommerce.Infrastructure
